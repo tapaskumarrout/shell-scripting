@@ -1,5 +1,5 @@
 #!/bin/bash
-echo Read & Write ----
+echo Read Write
 $ a= 10
 $ echo $a
 
