@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Frontend Script Execution
+echo -e "\e[32mFrontend Script Execution\e[0m
