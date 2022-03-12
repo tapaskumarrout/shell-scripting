@@ -6,6 +6,6 @@ echo $a
 echo *End*
 
 echo Array Practice
-b=(60,70)
-echo  "${b[0]}"
-echo -e "\n" ${b[1]}
+b=(60 70)
+echo -e "\n 1st Array Element" ${b[0]}
+echo -e "\n 2nd Array Element" ${b[1]}
