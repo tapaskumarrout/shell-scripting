@@ -19,8 +19,10 @@ echo Scenario 2 comapare a number to string
 
 read -p 'Enter you Name: ' var1
 #read -p 'Enter you Name: ' var2
+
 re='^[0-9]+$'
-if [ $var1 -eq $re ]
+
+if  [[ $var1 =~ $re ]]
  then
      echo -e "\e[32m This is a number\e[0m"
   else
