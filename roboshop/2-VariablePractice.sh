@@ -7,5 +7,5 @@ echo *End*
 
 echo Array Practice
 b=(60,70)
-echo -e ${b[0]} "\n"
-echo ${b[1]}
+echo  "${b[0]}"
+echo -e "\n" ${b[1]}
