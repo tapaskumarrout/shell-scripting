@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ["Xyz"= "ABC"]
+if["Xyz"="ABC"]
  then
   echo "Both String are equal"
  else
