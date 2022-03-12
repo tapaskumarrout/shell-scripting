@@ -12,5 +12,5 @@ echo -e "\e[35m Good Luck guys\e[0m"
 
 echo -e "Line1\nLine2"
 
-echo -e "make\ta\tsentence."
+echo -e "Make\ta\tsentence."
 
