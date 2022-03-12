@@ -33,8 +33,8 @@ if  [[ $var1 =~ $re ]]
 
  echo Scenarion 3 comapare with -ne , -gt, -ge, lt, -le
 
- read -p 'Enter you Name: ' var1
- read -p 'Enter you Name: ' var2
+ read -p 'Enter 1st Number: ' var1
+ read -p 'Enter 2nd Number: ' var2
 
  if [ $var1 -ne $var2 ]
   then
