@@ -10,8 +10,8 @@ if [ "Xyz" = "ABC" ]
 fi
 
 # Scenario 2
-read -p 'Enter you Name' Name
-if [ $Name = "ABC"]
+read -p 'Enter you Name: ' Name
+if [ $Name = "Hari" ]
  then
     echo "\e[32mYou are human being\e[0m"
  else
