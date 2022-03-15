@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source Component/common.sh
+source Components/common.sh
 
 echo -e "\e[32m*START Install Nginx.   \e[0m"
 yum install nginx -y
