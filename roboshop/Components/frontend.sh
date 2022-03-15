@@ -16,7 +16,7 @@ statuschk $? "Start Nginx Webserver" &>>$LOG_FILE
 
 
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
-statuschk $? "SDownloading frontend application" &>>$LOG_FILE
+statuschk $? "Downloading frontend application" &>>$LOG_FILE
 
 
 cd /usr/share/nginx/html
